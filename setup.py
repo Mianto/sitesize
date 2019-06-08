@@ -9,7 +9,7 @@ with open('LICENSE') as f:
 
 setup(
     name='sitesize',
-    version='1.1',
+    version='0.1',
     description='Getting size of web page',
     long_description=readme,
     long_description_content_type="text/markdown",
@@ -18,5 +18,9 @@ setup(
     url='https://github.com/mianto/sitesize',
     license=license,
     packages=find_packages(exclude=('tests')),
-
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
 )
