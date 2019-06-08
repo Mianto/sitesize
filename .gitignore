@@ -3,5 +3,4 @@ __pycache__
 venv/
 .idea
 build
-dist
 *.egg-info
