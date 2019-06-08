@@ -1,6 +1,17 @@
 Site Size
 ===
-This repository contains the code for returning the size of the web page.
+Returns the size of the webpage which url is passed
+
+---
+Usage
+---
+```python
+import sitesize
+# get the size of webpage in bytes
+sitesize.get_webpage_size('http://www.github.com/')
+# check if the url is valid or not
+sitesize.url_checker('http://www.github.com/')
+```
 ---
 Installation
 ---
