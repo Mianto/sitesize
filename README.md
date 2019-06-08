@@ -2,7 +2,7 @@ Site Size
 ===
 Returns the size of the webpage which url is passed
 
----
+
 Usage
 ---
 ```python
@@ -12,7 +12,7 @@ sitesize.get_webpage_size('http://www.github.com/')
 # check if the url is valid or not
 sitesize.url_checker('http://www.github.com/')
 ```
----
+
 Installation
 ---
 For Installing the dependency and saving the package 
