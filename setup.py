@@ -9,12 +9,14 @@ with open('LICENSE') as f:
 
 setup(
     name='sitesize',
-    version='1.0',
+    version='1.1',
     description='Getting size of web page',
     long_description=readme,
+    long_description_content_type="text/markdown",
     author='Siddhant Shaw',
     author_email='siddhantshaw97@gmail.com',
     url='https://github.com/mianto/sitesize',
     license=license,
-    packages=find_packages(exclude=('tests'))
+    packages=find_packages(exclude=('tests')),
+
 )
