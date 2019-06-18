@@ -5,7 +5,7 @@ with open('README.md', 'r') as f:
     readme = f.read()
 
 setup(
-    name='sitesize-mianto',
+    name='sitesize',
     version='0.0.1',
     author='Siddhant Shaw',
     author_email='siddhantshaw97@gmail.com',

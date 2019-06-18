@@ -15,6 +15,14 @@ sitesize.url_checker('http://www.github.com/')
 ---
 Installation
 ---
+Using pip
+
+`
+pip install sitesize
+`
+
+Without pip
+
 For Installing the dependency and saving the package 
 `python setup.py install`
 If you just want to test the package without installing
