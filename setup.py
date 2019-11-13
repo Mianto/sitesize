@@ -6,7 +6,7 @@ with open('README.md', 'r') as f:
 
 setup(
     name='sitesize',
-    version='0.0.1',
+    version='0.0.2',
     author='Siddhant Shaw',
     author_email='siddhantshaw97@gmail.com',
     description='Get size of web page',

@@ -11,6 +11,12 @@ import sitesize
 sitesize.get_webpage_size('http://www.github.com/')
 # check if the url is valid or not
 sitesize.url_checker('http://www.github.com/')
+# get the size of list of webpages
+list_urls = [
+    'https://www.google.com',
+    'https://www.python.org'
+]
+sitesize.get_webpage_sizes(list_urls)
 ```
 
 Installation
@@ -23,7 +29,7 @@ pip install sitesize
 
 Without pip
 
-For Installing the dependency and saving the package 
+For Installing the dependency and saving the package
 `python setup.py install`
 If you just want to test the package without installing
 * Clone the repository `git clone https://github.com/Mianto/sitesize.git`
